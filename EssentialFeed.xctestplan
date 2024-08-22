@@ -19,6 +19,14 @@
         "identifier" : "3077D4032C642B9B004257C1",
         "name" : "EssentialFeedTests"
       }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:EssentialFeed.xcodeproj",
+        "identifier" : "307BA5C72C7686B2007A62DE",
+        "name" : "EssentialFeedAPIEndtoEndTests"
+      }
     }
   ],
   "version" : 1
