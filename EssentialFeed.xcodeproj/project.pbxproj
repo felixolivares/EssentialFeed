@@ -44,6 +44,7 @@
 		30F85B062C90C6F800981AC9 /* CoreDataFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F85B052C90C6F800981AC9 /* CoreDataFeedStoreTests.swift */; };
 		30F85B082C90CAA800981AC9 /* CoreDataFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F85B072C90CAA800981AC9 /* CoreDataFeedStore.swift */; };
 		30F85B0B2C90DD5500981AC9 /* FeedStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30F85B092C90DD5500981AC9 /* FeedStore.xcdatamodeld */; };
+		30F85B192C910F1C00981AC9 /* CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F85B182C910F1C00981AC9 /* CoreDataHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,7 @@
 		30F85B052C90C6F800981AC9 /* CoreDataFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStoreTests.swift; sourceTree = "<group>"; };
 		30F85B072C90CAA800981AC9 /* CoreDataFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStore.swift; sourceTree = "<group>"; };
 		30F85B0A2C90DD5500981AC9 /* FeedStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FeedStore.xcdatamodel; sourceTree = "<group>"; };
+		30F85B182C910F1C00981AC9 /* CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +277,7 @@
 			children = (
 				30F85B072C90CAA800981AC9 /* CoreDataFeedStore.swift */,
 				30F85B092C90DD5500981AC9 /* FeedStore.xcdatamodeld */,
+				30F85B182C910F1C00981AC9 /* CoreDataHelpers.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -431,6 +434,7 @@
 				307BA5C22C76829E007A62DE /* URLSessionHTTPClient.swift in Sources */,
 				3077D41F2C646C6E004257C1 /* RemoteFeedLoader.swift in Sources */,
 				307BA5B82C6BFDB4007A62DE /* HTTPClient.swift in Sources */,
+				30F85B192C910F1C00981AC9 /* CoreDataHelpers.swift in Sources */,
 				3077D4172C642CDC004257C1 /* FeedLoader.swift in Sources */,
 				30F85B082C90CAA800981AC9 /* CoreDataFeedStore.swift in Sources */,
 				307BA5BA2C6BFECE007A62DE /* FeedItemsMapper.swift in Sources */,
