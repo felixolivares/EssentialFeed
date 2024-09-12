@@ -25,8 +25,18 @@ final class FeedViewController: UITableViewController {
         load()
     }
 
+    override func viewIsAppearing(_ animated: Bool) {
+        super.viewIsAppearing(animated)
+
+        refresh()
+    }
+
     @objc private func load() {
         loader?.load { _ in }
+    }
+
+    @objc private func refresh() {
+        refreshControl?.beginRefreshing()
     }
 }
 
@@ -78,6 +88,20 @@ final class FeedViewControllerTests: XCTestCase {
     }
 }
 
+private class FakeRefreshControl: UIRefreshControl {
+    private var _isRefreshing = false
+
+    override var isRefreshing: Bool { _isRefreshing }
+
+    override func beginRefreshing() {
+        _isRefreshing = true
+    }
+
+    override func endRefreshing() {
+        _isRefreshing = false
+    }
+}
+
 private extension UIRefreshControl {
     func simulatePullToRefresh() {
         allTargets.forEach { target in
@@ -85,5 +109,18 @@ private extension UIRefreshControl {
                 (target as NSObject).perform(Selector($0))
             }
         }
+    }
+}
+
+private extension UITableViewController {
+    func replaceRefreshControlWithFakeForiOS17Support() {
+        let fake = FakeRefreshControl()
+        
+        refreshControl?.allTargets.forEach { target in
+            refreshControl?.actions(forTarget: target, forControlEvent: .valueChanged)?.forEach { action in
+                fake.addTarget(target, action: Selector(action), for: .valueChanged)
+            }
+        }
+        refreshControl = fake
     }
 }
