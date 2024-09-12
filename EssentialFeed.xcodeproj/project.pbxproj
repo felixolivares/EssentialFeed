@@ -77,6 +77,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		305523A12C927B78003AF3C1 /* EssentialFeedAPIEndtoEndTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeedAPIEndtoEndTests.xctestplan; sourceTree = "<group>"; };
 		3077D3FA2C642B9B004257C1 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3077D3FD2C642B9B004257C1 /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		3077D3FE2C642B9B004257C1 /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
@@ -159,6 +160,7 @@
 		3077D3F02C642B9B004257C1 = {
 			isa = PBXGroup;
 			children = (
+				305523A12C927B78003AF3C1 /* EssentialFeedAPIEndtoEndTests.xctestplan */,
 				30F85B2C2C9111DE00981AC9 /* EssentialFeedCacheIntegrationTests.xctestplan */,
 				307BA5C32C7684EB007A62DE /* EssentialFeed.xctestplan */,
 				3077D3FC2C642B9B004257C1 /* EssentialFeed */,
