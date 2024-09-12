@@ -15,6 +15,7 @@
 		305523E32C92864E003AF3C1 /* PrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305523E22C92864E003AF3C1 /* PrototypeTests.swift */; };
 		305523ED2C92864E003AF3C1 /* PrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305523EC2C92864E003AF3C1 /* PrototypeUITests.swift */; };
 		305523EF2C92864E003AF3C1 /* PrototypeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305523EE2C92864E003AF3C1 /* PrototypeUITestsLaunchTests.swift */; };
+		305523FC2C9290DD003AF3C1 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305523FB2C9290DD003AF3C1 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		305523E82C92864E003AF3C1 /* PrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		305523EC2C92864E003AF3C1 /* PrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeUITests.swift; sourceTree = "<group>"; };
 		305523EE2C92864E003AF3C1 /* PrototypeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		305523FB2C9290DD003AF3C1 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				305523D42C92864E003AF3C1 /* Assets.xcassets */,
 				305523D62C92864E003AF3C1 /* LaunchScreen.storyboard */,
 				305523D92C92864E003AF3C1 /* Info.plist */,
+				305523FB2C9290DD003AF3C1 /* FeedViewController.swift */,
 			);
 			path = Prototype;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				305523CC2C92864D003AF3C1 /* AppDelegate.swift in Sources */,
+				305523FC2C9290DD003AF3C1 /* FeedViewController.swift in Sources */,
 				305523CE2C92864D003AF3C1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
