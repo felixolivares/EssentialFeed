@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CI.xcscheme_^#shared#^_</key>
+		<key>CI_iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>CI_macOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
@@ -17,22 +22,42 @@
 		<key>EssentialFeedAPIEndtoEndTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>4</integer>
 		</dict>
 		<key>EssentialFeedCacheIntegrationTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
+		</dict>
+		<key>EssentialFeediOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>305523A62C927CC5003AF3C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>305523AF2C927CC5003AF3C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>3077D3F92C642B9B004257C1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>3077D4032C642B9B004257C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>307BA5C72C7686B2007A62DE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
