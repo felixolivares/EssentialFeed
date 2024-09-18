@@ -37,12 +37,16 @@ final class FeedViewControllerTests: XCTestCase {
         sut.endAppearanceTransition()
         XCTAssertTrue(sut.isShowingLodingIndicator, "Expected loading indicator after the view is loading")
 
+        sut.refreshControl?.endRefreshing()
         loader.completeFeedLoading(at: 0)
         XCTAssertFalse(sut.isShowingLodingIndicator, "Expected no loading indicator once loading is complete successfully")
 
         sut.simulateUserInitiatedFeedReload()
+        sut.beginAppearanceTransition(true, animated: false)
+        sut.endAppearanceTransition()
         XCTAssertEqual(sut.refreshControl?.isRefreshing, true, "Expected loading indicator once user initiates a reload")
 
+        sut.refreshControl?.endRefreshing()
         loader.completeFeedLoadingWithError(at: 1)
         XCTAssertFalse(sut.isShowingLodingIndicator, "Expected no loading indicator once user initiated loading completes with error")
     }
@@ -247,7 +251,7 @@ final class FeedViewControllerTests: XCTestCase {
     
     private func makeSUT(file: StaticString = #file, line: UInt = #line) -> (sut: FeedViewController, loader: LoaderSpy) {
         let loader = LoaderSpy()
-        let sut = FeedViewController(feedLoader: loader, imageLoader: loader)
+        let sut = FeedUIComposer.feedComposedWith(feedLoader: loader, imageLoader: loader)
         trackForMemoryLeaks(loader, file: file, line: line)
         trackForMemoryLeaks(sut, file: file, line: line)
         return (sut, loader)
