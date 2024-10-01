@@ -320,12 +320,10 @@
 		305524152C9A40A4003AF3C1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				305524592CABA9C8003AF3C1 /* Helpers */,
 				3055240E2C94CD6A003AF3C1 /* FeedImageCell.swift */,
-				305524102C9A0A7C003AF3C1 /* UIView+Shimmering.swift */,
 				305524272C9DF0C7003AF3C1 /* Feed.storyboard */,
 				305524292C9DF12A003AF3C1 /* Feed.xcassets */,
-				3055242D2C9E0A93003AF3C1 /* UITableView+Dequeueing.swift */,
-				3055242F2C9E0BFF003AF3C1 /* UIImageView+Animations.swift */,
 				305524572CAB9D30003AF3C1 /* ErrorView.swift */,
 			);
 			path = Views;
@@ -385,6 +383,16 @@
 			children = (
 				305524532CAB9610003AF3C1 /* FeedViewController+TestHelpers.swift */,
 				305524552CAB9663003AF3C1 /* UIRefreshControl+TestHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		305524592CABA9C8003AF3C1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				305524102C9A0A7C003AF3C1 /* UIView+Shimmering.swift */,
+				3055242D2C9E0A93003AF3C1 /* UITableView+Dequeueing.swift */,
+				3055242F2C9E0BFF003AF3C1 /* UIImageView+Animations.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
