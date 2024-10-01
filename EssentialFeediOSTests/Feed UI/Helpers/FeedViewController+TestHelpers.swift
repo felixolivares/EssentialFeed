@@ -43,7 +43,7 @@ extension FeedViewController {
         ds?.tableView?(tableView, cancelPrefetchingForRowsAt: [index])
     }
 
-    var errorMessasge: String? {
+    var errorMessage: String? {
         return errorView.message
     }
     
