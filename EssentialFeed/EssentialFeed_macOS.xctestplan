@@ -12,7 +12,7 @@
     "codeCoverage" : {
       "targets" : [
         {
-          "containerPath" : "container:EssentialFeed.xcodeproj",
+          "containerPath" : "container:EssentialFeed\/EssentialFeed.xcodeproj",
           "identifier" : "3077D3F92C642B9B004257C1",
           "name" : "EssentialFeed"
         }
