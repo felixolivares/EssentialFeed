@@ -1,12 +1,12 @@
 //
-//  FeedViewControllerTests+Localization.swift
-//  EssentialFeediOSTests
+//  FeedUIIntegrationTests+Localization.swift
+//  EssentialAppTests
 //
-//  Created by José Félix Olivares Estrada on 23/09/24.
+//  Created by José Félix Olivares Estrada on 08/10/24.
 //
 
-import XCTest
 import Foundation
+import XCTest
 import EssentialFeed
 
 extension FeedUIIntegrationTests {

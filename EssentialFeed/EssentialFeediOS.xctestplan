@@ -12,7 +12,7 @@
     "codeCoverage" : {
       "targets" : [
         {
-          "containerPath" : "container:EssentialFeed\/EssentialFeed.xcodeproj",
+          "containerPath" : "container:EssentialFeed.xcodeproj",
           "identifier" : "305523A62C927CC5003AF3C1",
           "name" : "EssentialFeediOS"
         }
@@ -22,7 +22,7 @@
   "testTargets" : [
     {
       "target" : {
-        "containerPath" : "container:EssentialFeed\/EssentialFeed.xcodeproj",
+        "containerPath" : "container:EssentialFeed.xcodeproj",
         "identifier" : "305523AF2C927CC5003AF3C1",
         "name" : "EssentialFeediOSTests"
       }
